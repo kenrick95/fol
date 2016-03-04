@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+@import url('//cdn.jsdelivr.net/normalize/3.0.3/normalize.min.css');
 html, body {
     background: #222;
     height: 100%;
@@ -105,12 +102,12 @@ html, body {
 
 
 #o-e {
-    transform: translateX(calc(49px * 1.732050807568877293527446341505)); /* sqrt(3) */
+    transform: translateX(84.870489570875px); /* 49 * sqrt(3) px, to support IE */
     transform-origin: 50% 100%;
     border-color: rgba(216, 66, 200, .8);
 }
 #o-w {
-    transform: translateX(calc(-49px * 1.732050807568877293527446341505)); /* sqrt(3) */
+    transform: translateX(-84.870489570875px); /* -49 * sqrt(3) px, to support IE */
     transform-origin: 50% 100%;
     border-color: rgba(133, 233, 73, .8);
 }
