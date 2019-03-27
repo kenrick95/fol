@@ -1,7 +1,7 @@
 # fol
 Coldplay's Flower of Life, in CSS.
 
-[Preview here](https://rawgit.com/kenrick95/fol/master/index.html)
+[Preview here](https://kenrick95.github.io/fol/)
 
 ![Result](https://raw.githubusercontent.com/kenrick95/fol/master/result.png)
 
